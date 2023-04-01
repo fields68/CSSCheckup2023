@@ -2,9 +2,10 @@
 body {
     background-color: #0075bb;
     margin: 0;
-    font-family: 'Edu QLD Beginner', cursive, sans-serif;
+    font-family: 'Pirata One', cursive, sans-serif;
     display: flex;
     height: 100vh;
+    font-size: larger;
 }
 #container {
     width: 50%;
@@ -14,7 +15,7 @@ body {
     border: ridge 90px #bc3e47;
     border-radius: 5px;
     box-shadow: 
-        25px 25px 25px rgba(0, 0, 0, 0.5);
+        40px 25px 25px rgba(0, 0, 0, 0.5);
 }
 
 h1{
@@ -35,6 +36,8 @@ h2{
     width: 40%;
     float: left;
     text-align: center;
+    border: dotted 10px #bc3e47;
+    padding-bottom: 1em;
 }
 
 .information {
