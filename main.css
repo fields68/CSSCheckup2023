@@ -1,0 +1,56 @@
+
+body {
+    background-color: #0075bb;
+    margin: 0;
+    font-family: 'Edu QLD Beginner', cursive, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+#container {
+    width: 50%;
+    margin: auto;
+    padding: 4rem;
+    background-color: #E9FAE3;
+    border: ridge 90px #bc3e47;
+    border-radius: 5px;
+    box-shadow: 
+        25px 25px 25px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+    text-align: center;
+}
+
+hr{
+    height: 2px;
+    border-width: 0;
+    background-color: black;
+}
+
+h2{
+    text-align: center;
+}
+
+.smImage{
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+.information {
+    width: 55%;
+    position: relative;
+    top: 120px;
+    text-align: center;
+    float: right;
+    background-color: #4391be;
+    border-radius: 10px;
+}
+
+
+p {
+    width: auto;
+    text-align: justify;
+    font-size: larger;
+    margin: 1rem;
+}
